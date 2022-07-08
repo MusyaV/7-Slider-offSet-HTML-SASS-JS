@@ -1,0 +1,37 @@
+html {
+    font-size: 18px;
+    body {
+        font-size: 18px;
+        .contaner {
+            background-color: rgb(197, 197, 197);
+            width: 1200px;
+            margin: 30px auto;
+            padding: 30px;
+            .slider {
+                .slider-line {
+                    img {
+                    }
+                }
+            }
+        }
+    }
+}
+
+h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+button {
+    background: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
+button:hover {
+    background-color: orange;
+}
+button:active {
+    background: black;
+    color: white;
+}
